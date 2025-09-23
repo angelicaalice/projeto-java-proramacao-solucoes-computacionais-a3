@@ -55,15 +55,3 @@ O sistema foi desenvolvido como atividade acadêmica, com foco em controle de pr
 - Relatórios completos: usuários, projetos, equipes e tarefas.
 
 ---
-
-## Estrutura do Projeto (MVC)
-
-ProjetoJavaMVC/
-│
-├─ src/
-│ ├─ model/ # Classes que representam os dados (Usuario, Projeto, Equipe, Tarefa)
-│ ├─ view/ # Interface com o usuário (mensagens, relatórios)
-│ ├─ controller/ # Lógica de controle entre Model e View
-│ └─ Main.java # Ponto de entrada do programa
-│
-└─ README.md
