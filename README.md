@@ -55,6 +55,12 @@ ProjetoJavaMVC/
 - IDEs recomendadas: Sublime Text, IntelliJ, Eclipse, VS Code  
 
 ---
+## **Observações**
+
+Este projeto é funcional via console, podendo ser expandido para interface gráfica ou banco de dados.
+
+Desenvolvido com foco em arquitetura MVC, atendendo aos requisitos acadêmicos.
+
 
 ## **Como Rodar o Projeto**
 
@@ -74,8 +80,4 @@ java Main
 Você verá no console os relatórios de usuários, tarefas, projetos e equipes.
 
 
-## **Observações**
 
-Este projeto é funcional via console, podendo ser expandido para interface gráfica ou banco de dados.
-
-Desenvolvido com foco em arquitetura MVC, atendendo aos requisitos acadêmicos.
