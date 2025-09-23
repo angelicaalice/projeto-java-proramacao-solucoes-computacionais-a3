@@ -35,3 +35,47 @@ Sistema de **Gestão de Projetos e Equipes** desenvolvido em **Java**, seguindo 
 - Relatórios completos: usuários, projetos, equipes e tarefas.
 
 ---
+
+## **Estrutura do Projeto**
+
+ProjetoJavaMVC/
+│
+├─ README.md # Este arquivo
+└─ src/ # Código-fonte
+├─ model/ # Classes de dados (Usuario, Projeto, Equipe, Tarefa)
+├─ view/ # Exibição de informações (SistemaView)
+├─ controller/ # Lógica de controle (controllers)
+└─ Main.java # Ponto de entrada do programa
+
+
+## **Tecnologias Utilizadas**
+- Java 11 ou superior  
+- Padrão MVC (Model-View-Controller)  
+- Estrutura de dados em memória (ArrayList)  
+- IDEs recomendadas: Sublime Text, IntelliJ, Eclipse, VS Code  
+
+---
+
+## **Como Rodar o Projeto**
+
+1. Navegue até a pasta `src` no terminal:  
+```bash
+cd /caminho/para/ProjetoJavaMVC/src
+
+2. Compile todos os arquivos Java:
+```bash
+javac Main.java model/*.java view/*.java controller/*.java
+
+3. Execute o sistema:
+```bash
+java Main
+
+
+Você verá no console os relatórios de usuários, tarefas, projetos e equipes.
+
+
+## **Observações**
+
+Este projeto é funcional via console, podendo ser expandido para interface gráfica ou banco de dados.
+
+Desenvolvido com foco em arquitetura MVC, atendendo aos requisitos acadêmicos.
