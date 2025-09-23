@@ -55,11 +55,6 @@ ProjetoJavaMVC/
 - IDEs recomendadas: Sublime Text, IntelliJ, Eclipse, VS Code  
 
 ---
-## **Observações**
-
-Este projeto é funcional via console, podendo ser expandido para interface gráfica ou banco de dados.
-
-Desenvolvido com foco em arquitetura MVC, atendendo aos requisitos acadêmicos.
 
 
 ## **Como Rodar o Projeto**
@@ -67,17 +62,21 @@ Desenvolvido com foco em arquitetura MVC, atendendo aos requisitos acadêmicos.
 1. Navegue até a pasta `src` no terminal:  
 ```bash
 cd /caminho/para/ProjetoJavaMVC/src
+```
 
 2. Compile todos os arquivos Java:
 ```bash
 javac Main.java model/*.java view/*.java controller/*.java
+```
 
 3. Execute o sistema:
 ```bash
 java Main
-
-
+```
 Você verá no console os relatórios de usuários, tarefas, projetos e equipes.
 
+## **Observações**
 
+Este projeto é funcional via console, podendo ser expandido para interface gráfica ou banco de dados.
 
+Desenvolvido com foco em arquitetura MVC, atendendo aos requisitos acadêmicos.
