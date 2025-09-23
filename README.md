@@ -35,6 +35,3 @@ Sistema de **Gestão de Projetos e Equipes** desenvolvido em **Java**, seguindo 
 - Relatórios completos: usuários, projetos, equipes e tarefas.
 
 ---
-
-## **Estrutura do Projeto**
-
