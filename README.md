@@ -1,6 +1,7 @@
 # Projeto Acadêmico: sistema-gestao-projetos-java-1.0.0
 
- **Autores:** 
+ **Autores:**
+ 
  HENRIQUE SOARES MELO DA SILVA
  
  MATHEUS NEVES SIQUEIRA
