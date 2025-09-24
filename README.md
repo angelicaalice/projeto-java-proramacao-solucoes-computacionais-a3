@@ -1,58 +1,76 @@
-# Projeto Acadêmico - Atividade A3: Programação de Soluções Computacionais - Java MVC
+# Projeto Acadêmico: sistema-gestao-projetos-java-1.0.0
 
-**Autor:** Angélica Freitas  
-**Projeto:** ProjetoJavaMVC  
-
-Sistema de **Gestão de Projetos e Equipes** desenvolvido em **Java**, seguindo o padrão **MVC (Model-View-Controller)**. Permite gerenciar usuários, equipes, projetos e tarefas, acompanhando o andamento e gerando relatórios de desempenho.
-
----
-
-## **Funcionalidades**
-
-### 1. Usuários
-- Cadastro e manutenção de usuários.  
-- Cada usuário possui: nome completo, CPF, e-mail, cargo, login e senha.  
-- Perfis de usuário: **Administrador**, **Gerente**, **Colaborador**.  
-- Administrador: cria/remover usuários, gera relatórios completos.  
-- Gerente: supervisiona projetos, gera relatórios parciais.  
-- Colaborador: executa tarefas e atualiza status.
-
-### 2. Projetos
-- Cadastro de projetos com: nome, descrição, datas de início e término, status (planejado, em andamento, concluído, cancelado).  
-- Cada projeto possui um gerente responsável.  
-- Associação de tarefas ao projeto.
-
-### 3. Equipes
-- Cadastro de equipes com: nome, descrição e membros vinculados.  
-- Uma equipe pode atuar em vários projetos.
-
-### 4. Tarefas
-- Cadastro de tarefas relacionadas a projetos.  
-- Atualização do status das tarefas (pendente, em andamento, concluída).
-
-### 5. Relatórios
-- Relatórios parciais: status das tarefas de cada projeto.  
-- Relatórios completos: usuários, projetos, equipes e tarefas.
+ **Autores:** 
+ HENRIQUE SOARES MELO DA SILVA
+ 
+ MATHEUS NEVES SIQUEIRA
+ 
+ ALVARO JULIO PEDRO PRAZERES DA SILVA
+ 
+ ANGELICA ALICE DOS SANTOS DE FREITAS
+ 
+ WENDEL WILLIANS MARQUES SANTONI
+ 
+ RAFAEL MULLER ROSA
 
 ---
 
-## **Estrutura do Projeto**
+## Descrição  
+Este projeto consiste em um **Sistema de Gestão de Projetos e Equipes** desenvolvido em **Java**, utilizando o padrão **MVC (Model-View-Controller)**.  
+O sistema permite gerenciar **usuários, equipes, projetos e tarefas** de forma integrada, possibilitando o acompanhamento das atividades e a geração de relatórios.  
 
-ProjetoJavaMVC/
-│
-├─ README.md # Este arquivo
-└─ src/ # Código-fonte
-├─ model/ # Classes de dados (Usuario, Projeto, Equipe, Tarefa)
-├─ view/ # Exibição de informações (SistemaView)
-├─ controller/ # Lógica de controle (controllers)
-└─ Main.java # Ponto de entrada do programa
+Foi desenvolvido como atividade acadêmica da disciplina *Programação de Soluções Computacionais*.  
+
+---
+
+## Objetivos  
+- Aplicar conceitos de **Programação Orientada a Objetos (POO)**.  
+- Implementar a arquitetura **MVC** em um projeto funcional.  
+- Criar um sistema de gerenciamento simples, com armazenamento em **memória** utilizando `ArrayList`.  
+- Treinar versionamento de código com **GitHub**.  
+
+---
+
+## Requisitos Atendidos  
+
+### 👥 Usuários  
+- Cadastro e manutenção de usuários (nome, CPF, e-mail, cargo, login, senha).  
+- Perfis: **Administrador**, **Gerente** e **Colaborador**.  
+  - **Administrador:** gerencia permissões e relatórios completos.  
+  - **Gerente:** supervisiona projetos e relatórios parciais.  
+  - **Colaborador:** executa tarefas e atualiza status.  
+
+### 📂 Projetos  
+- Cadastro de projetos (nome, descrição, datas, status).  
+- Associação de projetos a gerentes e equipes.  
+- Status: planejado, em andamento, concluído ou cancelado.  
+
+### 👨‍👩‍👧 Equipes  
+- Cadastro de equipes (nome, descrição).  
+- Associação de membros e projetos às equipes.  
+- Uma equipe pode participar de vários projetos.  
+
+### ✅ Tarefas  
+- Cadastro de tarefas vinculadas a projetos.  
+- Alteração de status: pendente, em andamento, concluída.  
 
 
-## **Tecnologias Utilizadas**
-- Java 11 ou superior  
-- Padrão MVC (Model-View-Controller)  
-- Estrutura de dados em memória (ArrayList)  
-- IDEs recomendadas: Sublime Text, IntelliJ, Eclipse, VS Code  
+## 🏗️ Arquitetura  
+
+- **Model** → classes de dados (Usuario, Perfil,Projeto,Status,StatusTarefa,Equipe, Tarefa).
+- **View** → interface de exibição (ProjetoView) 
+- **Controller** → lógica de controle (UsuarioController, ProjetoController, EquipeController)
+- **GerenciadorDados** → responsável por salvar e carregar dados do `BancoDeDados`.  
+
+---
+
+## ⚙️ Tecnologias Utilizadas  
+- ☕ **Java (JDK 8+)**  
+- 🧩 **Paradigma POO**  
+- 🏛️ **Padrão MVC**  
+- 📋 **ArrayList em memória** para armazenamento temporário  
+- 🖥️ **IDE**: Sublime Text / VS Code / IntelliJ IDEA  
+- 🌐 **GitHub** para versionamento e entrega  
 
 ---
 
@@ -61,7 +79,7 @@ ProjetoJavaMVC/
 
 1. Navegue até a pasta `src` no terminal:  
 ```bash
-cd /caminho/para/ProjetoJavaMVC/src
+cd /caminho/para/sistema-gestao-projetos-java-1.0.0/src
 ```
 
 2. Compile todos os arquivos Java:
@@ -76,7 +94,5 @@ java Main
 Você verá no console os relatórios de usuários, tarefas, projetos e equipes.
 
 ## **Observações**
-
-Este projeto é funcional via console, podendo ser expandido para interface gráfica ou banco de dados.
 
 Desenvolvido com foco em arquitetura MVC, atendendo aos requisitos acadêmicos.
