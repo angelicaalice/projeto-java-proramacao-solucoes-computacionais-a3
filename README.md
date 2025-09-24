@@ -65,13 +65,14 @@ Foi desenvolvido como atividade acadêmica da disciplina *Programação de Solu�
 
 ---
 
-## ⚙️ Tecnologias Utilizadas  
-- ☕ **Java (JDK 8+)**  
-- 🧩 **Paradigma POO**  
-- 🏛️ **Padrão MVC**  
-- 📋 **ArrayList em memória** para armazenamento temporário  
-- 🖥️ **IDE**: Sublime Text / VS Code / IntelliJ IDEA  
-- 🌐 **GitHub** para versionamento e entrega  
+## Tecnologias Utilizadas  
+- **Java (version openjdk 17.0.12)**
+- **SO windows 10 home, versao 22H2**
+- **Paradigma POO**  
+- **Arquitetura Padrão MVC**  
+- **Executavel Compilado usando wixToolset** 
+- **IDE**: Visual Studio Code: Version: 1.104.1 (user setup)
+- **GitHub** para entrega  
 
 ---
 
